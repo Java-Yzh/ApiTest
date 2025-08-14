@@ -5,28 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe2b73f-da0b-4d18-9dd3-339d5be1d498" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/setting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yzh/Hutool/Captcha/CircleCaptchaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yzh/Hutool/Captcha/LineCaptchaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yzh/Hutool/Captcha/ShearCaptchaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yzh/Hutool/Crypto/SecureUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yzh/Hutool/Crypto/SmUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yzh/Hutool/JWT/JWTTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yzh/Hutool/QrCode/QrCodeTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yzh/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/CaptchaImages/CircleCaptchaImage-9e4ci.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/CaptchaImages/CircleCaptchaImage-i7zm7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/CaptchaImages/ShearCaptchaImage-qdzsx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/CaptchaImages/lineCaptchaImage-6qc47.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/QrCodeImages/qrcode1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yzh/Hutool/Crypto/SmUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yzh/Hutool/Crypto/SmUtilTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -54,30 +37,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "google-java-format.settings",
-    "vue.rearranger.settings.migration": "true",
-    "应用程序.CircleCaptchaTest.executor": "Run",
-    "应用程序.JWTTest1.executor": "Run",
-    "应用程序.LineCaptchaTest.executor": "Run",
-    "应用程序.Main.executor": "Run",
-    "应用程序.QrCodeTest.executor": "Run",
-    "应用程序.SecureUtilTest.executor": "Run",
-    "应用程序.ShearCaptchaTest.executor": "Run",
-    "应用程序.SmUtilTest.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;google-java-format.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.CircleCaptchaTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.JWTTest1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.LineCaptchaTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.QrCodeTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.SecureUtilTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.ShearCaptchaTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.SmUtilTest.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="应用程序.SmUtilTest">
     <configuration name="JWTTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yzh.Hutool.JWT.JWTTest1" />
@@ -164,7 +147,7 @@
       <updated>1754641916209</updated>
       <workItem from="1754641917591" duration="4342000" />
       <workItem from="1755140976418" duration="371000" />
-      <workItem from="1755141366280" duration="8704000" />
+      <workItem from="1755141366280" duration="13984000" />
     </task>
     <servers />
   </component>
@@ -179,7 +162,18 @@
             <State>
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
-                  <entry key="Show.Git.Branches" value="false" />
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
                 </map>
               </option>
             </State>
