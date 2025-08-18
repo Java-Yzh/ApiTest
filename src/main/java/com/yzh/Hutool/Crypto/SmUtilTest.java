@@ -1,5 +1,6 @@
 package com.yzh.Hutool.Crypto;
 
+import cn.hutool.core.codec.Base64;
 import cn.hutool.crypto.KeyUtil;
 import cn.hutool.crypto.SecureUtil;
 import cn.hutool.crypto.SmUtil;
@@ -29,6 +30,7 @@ public class SmUtilTest {
         SM3 sm3 = SmUtil.sm3();
         byte[] digest = sm3.digest(password);
         System.out.println("SM3摘要: " + new String(digest));
+        System.out.println(Base64.encode(digest));
         System.out.println("----------------------");
 
         // SM4（对称加密）（随机密钥）

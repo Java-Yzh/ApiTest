@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe2b73f-da0b-4d18-9dd3-339d5be1d498" name="更改" comment="">
+    <list default="true" id="9fe2b73f-da0b-4d18-9dd3-339d5be1d498" name="更改" comment="完善国密算法工具SmUtil使用案例">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yzh/Hutool/Codec/BCDTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yzh/Hutool/Codec/Base32Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yzh/Hutool/Codec/Base62Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yzh/Hutool/Codec/Base64Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yzh/Hutool/Codec/MorseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yzh/Hutool/Codec/PunycodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yzh/Hutool/Codec/RotNTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/yzh/Hutool/Crypto/SmUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yzh/Hutool/Crypto/SmUtilTest.java" afterDir="false" />
     </list>
@@ -37,37 +44,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;google-java-format.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.CircleCaptchaTest.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.JWTTest1.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.LineCaptchaTest.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.QrCodeTest.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.SecureUtilTest.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.ShearCaptchaTest.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.SmUtilTest.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "google-java-format.settings",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.BCDTest.executor": "Run",
+    "应用程序.Base32Test.executor": "Run",
+    "应用程序.Base62Test.executor": "Run",
+    "应用程序.Base64Test.executor": "Run",
+    "应用程序.CircleCaptchaTest.executor": "Run",
+    "应用程序.JWTTest1.executor": "Run",
+    "应用程序.LineCaptchaTest.executor": "Run",
+    "应用程序.Main.executor": "Run",
+    "应用程序.MorseTest.executor": "Run",
+    "应用程序.PunycodeTest.executor": "Run",
+    "应用程序.QrCodeTest.executor": "Run",
+    "应用程序.RotNTest.executor": "Run",
+    "应用程序.SecureUtilTest.executor": "Run",
+    "应用程序.ShearCaptchaTest.executor": "Run",
+    "应用程序.SmUtilTest.executor": "Run"
   }
-}</component>
-  <component name="RunManager" selected="应用程序.SmUtilTest">
-    <configuration name="JWTTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzh.Hutool.JWT.JWTTest1" />
+}]]></component>
+  <component name="RunManager" selected="应用程序.PunycodeTest">
+    <configuration name="BCDTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzh.Hutool.Codec.BCDTest" />
       <module name="ApiTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzh.Hutool.JWT.*" />
+          <option name="PATTERN" value="com.yzh.Hutool.Codec.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzh.Main" />
+    <configuration name="Base62Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzh.Hutool.Codec.Base62Test" />
       <module name="ApiTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzh.*" />
+          <option name="PATTERN" value="com.yzh.Hutool.Codec.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QrCodeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzh.Hutool.QrCode.QrCodeTest" />
+    <configuration name="MorseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzh.Hutool.Codec.MorseTest" />
       <module name="ApiTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzh.Hutool.QrCode.*" />
+          <option name="PATTERN" value="com.yzh.Hutool.Codec.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecureUtilTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzh.Hutool.Crypto.SecureUtilTest" />
+    <configuration name="PunycodeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzh.Hutool.Codec.PunycodeTest" />
       <module name="ApiTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzh.Hutool.Crypto.*" />
+          <option name="PATTERN" value="com.yzh.Hutool.Codec.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmUtilTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzh.Hutool.Crypto.SmUtilTest" />
+    <configuration name="RotNTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzh.Hutool.Codec.RotNTest" />
       <module name="ApiTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzh.Hutool.Crypto.*" />
+          <option name="PATTERN" value="com.yzh.Hutool.Codec.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.SmUtilTest" />
-        <item itemvalue="应用程序.SecureUtilTest" />
-        <item itemvalue="应用程序.JWTTest1" />
-        <item itemvalue="应用程序.QrCodeTest" />
-        <item itemvalue="应用程序.Main" />
+        <item itemvalue="应用程序.PunycodeTest" />
+        <item itemvalue="应用程序.RotNTest" />
+        <item itemvalue="应用程序.BCDTest" />
+        <item itemvalue="应用程序.Base62Test" />
+        <item itemvalue="应用程序.MorseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -147,8 +161,17 @@
       <updated>1754641916209</updated>
       <workItem from="1754641917591" duration="4342000" />
       <workItem from="1755140976418" duration="371000" />
-      <workItem from="1755141366280" duration="13984000" />
+      <workItem from="1755141366280" duration="20838000" />
     </task>
+    <task id="LOCAL-00001" summary="完善国密算法工具SmUtil使用案例">
+      <option name="closed" value="true" />
+      <created>1755162979429</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755162979430</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +207,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="完善国密算法工具SmUtil使用案例" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善国密算法工具SmUtil使用案例" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
